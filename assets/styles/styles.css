@@ -126,12 +126,15 @@ a{
     background-color: rgb(221, 221, 221);
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-top: 3px;
+    padding-top: 8px;
     padding-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .eventinfo{
-
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
   }
 
   .drinkinfo{
@@ -153,6 +156,16 @@ a{
    border-radius: 20%;
    border: 2px solid white;
    } 
+
+   .event{
+    margin-left:2%;
+    float:left; 
+    height:150px;
+    width:150px; 
+    margin-right: 2%;
+    border-radius: 20%;
+    border: 2px solid white;
+    } 
 
    .smallicons{
        width: 30px;
@@ -217,4 +230,35 @@ a{
 
 .contents .tabcontent{
     padding: 0;
+}
+
+.redbar{
+    padding: 11px;
+    background-color: red;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+
+.infoforevent{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redbubble{
+    background-color: red;
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.message{
+    font-weight: bolder;
 }

@@ -17,10 +17,10 @@
 <div class='contents'></div>
     <div class='tablinks'>
         <div id='drink' class="tabcontent active">
-            <div class=drinkpost>
+            <div class='drinkpost'>
                 <div class='drinkinfo'>
                     <div class='parent'>
-                        <img class='drink base' src="img/testdrink.jpg" alt="">
+                        <a href='recipe.php'><img class='drink base' src="img/testdrink.jpg" alt=""></a>
                         <img class='person ontop' src="img/face.jpg" alt="">
                     </div>
                     <p>Appletini</p>
@@ -41,11 +41,11 @@
             <div class=eventpost>
             <div class='drinkinfo'>
                     <div class='parent'>
-                        <img class='drink base' src="img/testdrink.jpg" alt="">
+                        <img class='event base' src="img/bar.png" alt="">
                         <img class='person ontop' src="img/face.jpg" alt="">
                     </div>
-                    <p>Pregame At Katy's</p>
-                    <h6>Organized by<span class='redtext'>Maria Chantel</spam></h6>
+                    <p class='redbar'>Pregame At Katy's</p>
+                    <h6>Organized by <span class='redtext'>Maria Chantel</spam></h6>
                     <p>Tried this last night. Pretty straightforward recipe. All I had to use was...</p>
                     <div class='interact'>
                         <div class=tab>
