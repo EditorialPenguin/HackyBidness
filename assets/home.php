@@ -10,53 +10,15 @@
 
 <div class='midbar'>
     <div class=tab>
-        <button class="tablinks" onclick="openDrinkEvent(event, 'event')">Events</button>
-        <button class="tablinks" onclick="openDrinkEvent(event, 'drink')">Drinks</button>
+        <button class="tablinks" onclick="openDrinkEvent(event, 'event'); getEvents(); reset(1);">Events</button>
+        <button class="tablinks" onclick="openDrinkEvent(event, 'drink'); getDrinks(); reset(2);">Drinks</button>
     </div>
 </div>
 <div class='contents'></div>
     <div class='tablinks'>
         <div id='drink' class="tabcontent active">
-            <div class='drinkpost'>
-                <div class='drinkinfo'>
-                    <div class='parent'>
-                        <a href='recipe.php'><img class='drink base' src="img/testdrink.jpg" alt=""></a>
-                        <img class='person ontop' src="img/face.jpg" alt="">
-                    </div>
-                    <p>Appletini</p>
-                    <h6>By <span class='redtext'>Maria Chantel</spam></h6>
-                    <p>Tried this last night. Pretty straightforward recipe. All I had to use was...</p>
-                    <div class='interact'>
-                        <div class=tab>
-                            <button class="tablinks"><img class='white' src="../assets/img/like.png" alt=""></button>
-                            <button class="tablinks"><img class='white' src="../assets/img/comments.png" alt=""></button>        
-                            <button class="tablinks"><img class='white' src="../assets/img/share.png" alt=""></button>
-                            <button class="tablinks"><img class='white' src="../assets/img/save.png" alt=""></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <div id='event' class='tabcontent'>
-            <div class=eventpost>
-            <div class='drinkinfo'>
-                    <div class='parent'>
-                        <img class='event base' src="img/bar.png" alt="">
-                        <img class='person ontop' src="img/face.jpg" alt="">
-                    </div>
-                    <p class='redbar'>Pregame At Katy's</p>
-                    <h6>Organized by <span class='redtext'>Maria Chantel</spam></h6>
-                    <p>Tried this last night. Pretty straightforward recipe. All I had to use was...</p>
-                    <div class='interact'>
-                        <div class=tab>
-                            <button class="tablinks"><img class='white' src="../assets/img/like.png" alt=""></button>
-                            <button class="tablinks"><img class='white' src="../assets/img/comments.png" alt=""></button>        
-                            <button class="tablinks"><img class='white' src="../assets/img/share.png" alt=""></button>
-                            <button class="tablinks"><img class='white' src="../assets/img/rsvp.png" alt=""></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>

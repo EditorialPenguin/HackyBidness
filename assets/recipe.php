@@ -6,6 +6,13 @@
 <br>
 <div class='infoforevent'>
     <p class='redbubble title'>Appletini</p>
+    <div class='title center'>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+    </div>
 </div>
 
 <div class=drinkpost>
@@ -27,6 +34,10 @@
             </div>
         </div>
     </div>
+
+<div class='purchasetab'>
+
+</div>
 
 <?php
     $path = "../";
