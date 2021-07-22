@@ -8,7 +8,7 @@
     <div class='drinkinfo'>
             <div class='parent'>
                 <img class='event base' src="img/bar.png" alt="">
-                <img class='person ontop' src="img/face.jpg" alt="">
+                <img class='person ontop' src="img/face2.jpg" alt="">
             </div>
             <p class='redbar'>Pregame At Katy's</p>
             <h6>Organized by <span class='redtext'>Maria Chantel</spam></h6>

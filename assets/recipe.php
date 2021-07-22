@@ -19,7 +19,7 @@
         <div class='drinkinfo'>
             <div class='parent'>
                 <img class='drink base' src="img/testdrink.jpg" alt="">
-                <img class='person ontop' src="img/face.jpg" alt="">
+                <img class='person ontop' src="img/face2.jpg" alt="">
             </div>
             <br>
             <p>Tried this last night. Pretty straightforward recipe. All I had to use was...</p>
