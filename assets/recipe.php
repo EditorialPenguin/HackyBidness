@@ -32,9 +32,20 @@
                     <button class="tablinks"><img class='white' src="../assets/img/save.png" alt=""></button>
                 </div>
             </div>
+            <div class='recipe'>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1 ounce apple juice</li>
+                    <li>1/4 ounce lemon juice</li>
+                    <li>1 1/4 ounces green apple schnapps</li>
+                    <li>1 1/2 ounces vodka</li>
+                    <li>ice</li>
+                    <li>green apple slices (optional)</li>
+                    <li>lemon juice (optional)</li>
+                </ul>
+            </div>
         </div>
     </div>
-
 <div class='purchasetab'>
 
 </div>

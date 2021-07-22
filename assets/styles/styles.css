@@ -266,3 +266,13 @@ a{
 .message{
     font-weight: bolder;
 }
+
+.recipe{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapstuff{
+    width: 460px;
+}

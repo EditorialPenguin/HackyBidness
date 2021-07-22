@@ -1,5 +1,5 @@
 
-<div class='botbar'>
+<div class='botbar wrapstuff'>
     <div class=tab>
     <button class="tablinks"><img class='white' src="../assets/img/home.png" alt=""></button>
     <button class="tablinks"><img class='white' src="../assets/img/cocktail.png" alt=""></button>        
