@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box
+} 
+
+h1, h2{
+    color: #ffffff !important;
+}
+
+.wrapper{
+    background-color: red !important;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: 100%;
+  }
+
+  .circle{
+    border-radius: 50% !important;
+    height: 50px !important;
+    width: 50px;
+    border: 5px solid white;
+    margin-left: 3px;
+  }
+.navbar-brand{
+width: 100% !important;
+}
+
+.topbar{
+  background-color: red;
+}
+
+.midbar{
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.botbar{
+    background-color: black;
+    width: 100%;
+    position: fixed; bottom: 0;
+}
+
+a{
+  font-size: 30px;
+}
+
+.midbar .tab button{
+    width:50%;
+    display:block;
+}
+
+.botbar .tab button{
+    width:20%;
+    display:block;
+}
+
+
+.botbar .tab {
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+  }
+  
+.botbar .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto
+  }
+
+  .drinkpost{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .eventpost{
+    width: 100%;
+    background-color: rgb(221, 221, 221);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .eventinfo{
+
+  }
+
+  .drinkinfo{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .contents{
+      width: 100%;
+  }
+
+  .drink {
+    margin-left:2%;
+   float:left; 
+   height:150px;
+   width:150px; 
+   margin-right: 2%;
+   border-radius: 20%;
+   border: 2px solid white;
+   } 
+
+   .smallicons{
+       width: 30px;
+       height: 30px;
+   }
+
+   .redtext{
+       color: red;
+   }
+
+.white{
+    width: 30px;
+    height: 30px;
+}
+
+.interact{
+
+}
+
+.interact .tab {
+    overflow: hidden;
+    border: none;
+    background-color: rgb(221, 221, 221);
+  }
+  
+  /* Style the buttons inside the tab */
+  .interact .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 7px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .base {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .ontop {
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    border: 1px green solid;
+  }
+
+  .person{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid white;
+  }
+
+.contents .tabcontent{
+    padding: 0;
+}
